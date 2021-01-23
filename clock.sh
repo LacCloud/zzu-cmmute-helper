@@ -16,5 +16,5 @@ url="https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/jksb"
 #进入身份确认界面
 curl -d "day6=b&did=1&men6=a&ptopid=${ptopid}&sid=${sid}" ${url}
 #进行打卡
-myvs_13c=山东省.淄博市.张店区
+myvs_13c=
 curl -d "myvs_1=否&myvs_2=否&myvs_3=否&myvs_4=否&Btn3=获取地市&myvs_13a=37&myvs_13b=3703&myvs_13c=${myvs_13c}&myvs_14=否&did=2&day6=b&men6=a&ptopid=${ptopid}&sid={$sid}" ${url}
