@@ -16,4 +16,4 @@ url="https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/jksb"
 #进入身份确认界面
 curl -d "day6=b&did=1&men6=a" -d "ptopid=${ptopid}&sid=${sid}" ${url}
 #进行打卡
-curl -d "@myvs.txt" -d "jingdu=113.64&weidu=34.71&ptopid=${ptopid}&sid={$sid}" ${url}
+curl -d "@myvs.txt" -d "jingdu=118.03&weidu=36.83&ptopid=${ptopid}&sid={$sid}" ${url}
