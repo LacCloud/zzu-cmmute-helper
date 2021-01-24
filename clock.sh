@@ -11,10 +11,9 @@ udata=${udata#*ptopid=}
 udata=${udata%\"\}\}*}
 ptopid="${udata%&*}"
 sid="${udata#*&sid=}"
-url="https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/jksb"
 
+url="https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/jksb"
 #进入身份确认界面
-curl -d "day6=b&did=1&men6=a&ptopid=${ptopid}&sid=${sid}" ${url}
+curl -d "day6=b&did=1&men6=a" -d "ptopid=${ptopid}&sid=${sid}" ${url}
 #进行打卡
-myvs_13c=
-curl -d "myvs_1=否&myvs_2=否&myvs_3=否&myvs_4=否&Btn3=获取地市&myvs_13a=37&myvs_13b=3703&myvs_13c=${myvs_13c}&myvs_14=否&did=2&day6=b&men6=a&ptopid=${ptopid}&sid={$sid}" ${url}
+curl -d "@myvs.txt" -d "jingdu=113.64&weidu=34.71&ptopid=${ptopid}&sid={$sid}" ${url}
