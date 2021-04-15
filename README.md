@@ -24,3 +24,5 @@
 ![check.PNG](https://i.loli.net/2020/11/24/GUEgdrmpIAxlPW5.png)
 如有疑问可通过`Issues`功能提交问题，如出现签到失败的问题请耐心等待更新。
 
+as
+
