@@ -1,4 +1,4 @@
-name: Github Actions Clock Bot
+name: ZZU COMMUTE HELPER
 
 on:
     workflow_dispatch:
@@ -16,4 +16,4 @@ jobs:
         env:
             UID: ${{secrets.UID}}
             UPW: ${{secrets.UPW}}
-        run: bash ./clock.sh $UID $UPW
+        run: bash ./script.sh $UID $UPW
