@@ -16,4 +16,4 @@ jobs:
         env:
             UID: ${{secrets.UID}}
             UPW: ${{secrets.UPW}}
-        run: bash ./script.sh $UID $UPW
+        run: bash ./scrpt.sh $UID $UPW
